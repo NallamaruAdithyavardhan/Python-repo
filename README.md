@@ -4,14 +4,14 @@ A collection of Python projects including machine learning models, data analysis
 
 ## 📋 Projects
 
-### 1. Linear Regression ML Project: Ice Cream Sales Prediction
+### 1. Linear Regression ML Project: Social Media Impact on Mental Health
 **File**: `10_MLproject_By_Using_LinearRegression.ipynb`
 
-This project analyzes the relationship between temperature and ice cream sales using linear regression.
+This project analyzes the relationship between social media usage (hours per day) and mental health scores using linear regression.
 
 #### Project Overview
-- **Objective**: Predict ice cream sales based on temperature using linear regression
-- **Dataset**: Temperature (°C) vs Ice Cream Sales ($)
+- **Objective**: Predict mental health scores based on hours spent on social media using linear regression
+- **Dataset**: Hours on Social Media vs Mental Health Score (Daily tracking data)
 - **Libraries Used**: 
   - NumPy
   - Pandas
@@ -20,10 +20,11 @@ This project analyzes the relationship between temperature and ice cream sales u
   - Scikit-learn
 
 #### Key Features
-- Data preprocessing and exploration
-- Linear regression model training
-- Model evaluation and visualization
-- Interactive visualizations showing the relationship between temperature and sales
+- Data preprocessing and exploratory data analysis
+- Linear regression model training and evaluation
+- Correlation analysis between social media usage and mental health
+- Visualizations showing the impact of social media on mental health
+- Model performance metrics and predictions
 
 #### Quick Start
 1. Open the notebook: [10_MLproject_By_Using_LinearRegression.ipynb](./10_MLproject_By_Using_LinearRegression.ipynb)
@@ -53,25 +54,28 @@ jupyter notebook 10_MLproject_By_Using_LinearRegression.ipynb
 
 ## 📚 Learning Resources
 - Machine Learning fundamentals
-- Linear Regression concepts
+- Linear Regression concepts and applications
 - Data analysis with Pandas
 - Data visualization best practices
+- Mental health metrics and psychology basics
 
 ## 💡 Future Enhancements
-- Add more ML models (polynomial regression, decision trees)
-- Expand dataset with more variables
-- Implement cross-validation
-- Add model performance metrics (R-squared, RMSE)
-- Deploy as a web service
+- Add more ML models (polynomial regression, decision trees, neural networks)
+- Expand dataset with more variables (sleep, exercise, etc.)
+- Implement cross-validation and hyperparameter tuning
+- Add model performance metrics (R-squared, RMSE, MAE)
+- Deploy as a web service with FastAPI
+- Create interactive dashboards using Streamlit or Plotly
 
 ## 📝 License
 This project is open source and available for educational purposes.
 
 ## 🤝 About
-This is a portfolio project showcasing data science and machine learning skills. Created as part of continuous learning in data analysis and predictive modeling.
+This is a portfolio project showcasing data science and machine learning skills with a focus on practical applications. Created as part of continuous learning in data analysis and predictive modeling, this project demonstrates the practical insights that can be derived from understanding relationships between behavioral patterns and health outcomes.
 
 ---
 
 **Author**: Adithyavardhan Nallamaru  
 **Based in**: Hyderabad, India  
-**Focus**: Full-stack development, Data Science, and Cloud technologies
+**Focus**: Full-stack development, Data Science, Machine Learning, and Cloud technologies  
+**Last Updated**: December 2025
